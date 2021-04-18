@@ -15,10 +15,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
         <!-- SEO Meta Tags -->
-        <meta
-            name="description"
-            content="Eigen Learning"
-        />
+        <meta name="description" content="Eigen Learning" />
         <meta name="author" content="Eigen Learning" />
 
         <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
@@ -47,6 +44,7 @@
         <link href="css/swiper.css" rel="stylesheet" />
         <link href="css/magnific-popup.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/eigen.css" rel="stylesheet" />
     </head>
     <body data-spy="scroll" data-target=".fixed-top">
         <!-- Preloader -->
@@ -82,7 +80,7 @@
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#home">HOME<span class="sr-only">(current)</span></a>
+                        <a class="nav-link page-scroll" href="#product">PRODUCT<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="#about">ABOUT</a>
@@ -113,16 +111,24 @@
         <!-- end of navbar -->
 
         <!-- Header -->
-        <div id="particle-canvas"></div>
+        <div class="base-slide">
+            <div id="particle-canvas"></div>
+            <div id="overlay">
+                <h1>Eigen&nbsp;Learning</h1>
+                <p>Democratizing&nbsp;Quality&nbsp;Education</p>
+            </div>
+        </div>
 
         <!-- end of header -->
 
         <script src="js/particle-network.min.js"></script>
         <script type="text/javascript">
+            // #0b0044
             var canvasDiv = document.getElementById('particle-canvas')
             var options = {
                 particleColor: '#FFF',
-                background: 'images/header-background.jpg',
+                background: '#000057',
+                // background: 'images/header-background.jpg',
                 interactive: true,
                 speed: 'medium',
                 density: 'medium',
@@ -132,12 +138,21 @@
 
         <!-- end of header -->
         <!-- Home -->
-        <div id="home" class="tabs">
+        <div id="product" class="product-slide">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-16">
-                        <h2>HOME</h2>
-                        <p>Intelligent Adaptive Learning Platform</p>
+                        <h2>PRODUCT</h2>
+                        <div>
+                            <div class="product-heading">Intelligent Adaptive Learning Platform</div>
+                            Our Platform which hosts Artificial Intelligence algorithms, mimics the qualities of a
+                            'Great Teacher' that bridges the gap between Student and the Subject. We apply Artificial
+                            Intelligence and Graph Theory to the different components of the learning. By collecting
+                            data points from our platform, AI helps us to identify the gaps in the learning of the
+                            student and creates a personalised learning plan to master the subject.
+                        </div>
+
+                        <!--p>Intelligent Adaptive Learning Platform</p>-->
                     </div>
                 </div>
             </div>
@@ -148,19 +163,21 @@
                 <div class="row">
                     <div class="col-lg-16">
                         <h2>ABOUT</h2>
-                        <div>
+                        <p>
                             Research suggests that there is a non-uniformity in the distribution of quality teacher.
                             Owing to the large Student to Teacher Ratio in conventional classrooms, it is very difficult
                             to provide personalised learning path for every student, as every student is unique in terms
-                            of learning capabilities. Founded in 2021 by graduates of IIT and NIT, Eigen Learning solves
-                            the fundamental problem of bridging the gap between the number of quality teachers and
-                            students. Our Learning Platform which hosts Artificial Intelligence algorithms, mimics the
-                            qualities of a 'Great Teacher' that bridges the gap between Student and the Subject. We
-                            apply Artificial Intelligence and Graph Theory to the different components of the learning.
-                            By collecting data points from our platform, AI helps us to identify the gaps in the
-                            learning of the student and creates a personalised learning plan to master the subject. To
-                            know more about our Platform and APIs, feel free to drop us a mail.
-                        </div>
+                            of learning capabilities.
+                        </p>
+                        <p>
+                            Founded in 2021 by the graduates of IIT and NIT, Eigen Learning solves the fundamental
+                            problem of bridging the gap between the number of quality teachers and students.
+                        </p>
+                        <p>
+                            Our Platform acts as an enabling tool for Teachers and Educational Institutions for providing
+                            personalised one-to-one tutoring using AI + Human Teacher Model.
+                        </p>
+                        <p>To know more about our Platform and APIs, feel free to drop us a <a href="mailto:info@eigenlearning.com">mail</a>.</p>
                     </div>
                     <!-- end of col -->
                 </div>

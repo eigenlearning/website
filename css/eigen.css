@@ -1,0 +1,78 @@
+.base-slide {
+    /* background: #0b0044; */
+    background: #000057;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.product-slide {
+    padding-top: 6.5rem;
+	padding-bottom: 4.25rem;
+    background: #ffffff;
+    color: var(--eigen-color);
+}
+
+.product-slide h2 {
+    margin-bottom: 1.125rem;
+	text-align: center;
+	color: var(--eigen-color);
+}
+
+.product-slide .product-heading {
+	margin-bottom: 1.125rem;
+}
+
+.product-heading {
+	margin-bottom: 1.75rem;
+	text-align: center;
+    font-size: 18px;
+}
+
+
+body {
+    /* font-family: inherit; */
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+
+#overlay {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    bottom: 50%;
+    color: #fff;
+    left: 50%;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    z-index: 100;
+    /* font-family: 'Times New Roman', Times, serif; */
+  }
+
+  #overlay h1 {
+    font-size: 40px;
+    font-weight: 100;
+    display: block;
+    margin: 0;
+    font-family: inherit;
+  }
+
+  #overlay p {
+    font-size: 20px;
+    margin: 8px 0 0 0;
+    color: rgba(255, 255, 255, 0.8);
+    /* color: var(--eigen-color); */
+    font-weight: 100;
+    font-style: italic;
+    font-family: inherit;
+  }
+
+  #overlay p a {
+    border-bottom: 1px solid #fff;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 100;
+    text-decoration: none;
+  }
